@@ -3,7 +3,7 @@
  */
 
 //Include the 'http' module to create a server
-const http = require("http");
+const http = require('http');
 const port = 3000; //Initialize the port number
 
 //Create an instance of the server using the createServer() method.
@@ -22,10 +22,10 @@ const server = http.createServer((req, res) => {
         const data = getUsers(); 
 
         res.statusCode = 200; //Set the HTTP status code to 200 (OK)
-    res.setHeader("Content-Type", "text/plain"); //Set the content type to plain text
+    res.setHeader('Content-Type', 'text/plain'); //Set the content type to plain text
 
     //Send a response to the client
-    res.end("Hello, Welcome to the Node.js app!\n");
+    res.end(data);
 
     }
 });
@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
 function getUsers(){
     //Assuming we have a database connection and a method to fetch user data
     //For now, we'll just return a hardcoded array of user objects
-    return "Sthwalo, Nyoni, and Tshelela";
+    return 'Sthwalo, Nyoni, and Tshelela';
 }
 
 //Use server.listen() method to start listening for connections.
