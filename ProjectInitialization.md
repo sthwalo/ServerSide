@@ -43,3 +43,17 @@
 
 ### Showcase 
 
+
+### Execution Process 
+Locate the files directory (in this case in my node files are located in this folder)
+- cd /Users/sthwalonyoni/Documents/backend/ServerSide/Day()
+- for files i realised i have to create a JSON file run it first before i run the node file  
+
+
+
+### Killing Execution 
+Open new terminal and run 
+- lsof -i :3000 (The port number must match the server you are currently running on mine in this case is 3000)
+
+From the output copy the Process ID (PID) and run 
+- kill -9 (PID)
