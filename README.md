@@ -7,6 +7,12 @@ This repository contains my journey through learning Node.js fundamentals, packa
 - Learnt what Node.js is and why it's used.
 - Set up a Node.js environment.
 - Wrote a "Hello!" script in a greet function.
+- When working with file system i realized that whenever i would run my code i would always encounter the "MODULE NOT FOUND" error to fix this i had to: 
+    1. check if the fs module was installed (npm list fs)
+    2. npm install fs
+    3. verify
+    
+
 
 [View Day 1 Exercises](./Day1)
 

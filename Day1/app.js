@@ -39,5 +39,5 @@ function getUsers(){
 
 //Use server.listen() method to start listening for connections.
 server.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);//Log a message to the console when the server is started
+    console.log(`Server is running at port ${port}`);//Log a message to the console when the server is started
 });
