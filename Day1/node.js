@@ -42,3 +42,23 @@ server.listen(port, () => {
  * •	Single-page applications
  * •	API development
  */
+
+/**
+ * GLOBAL OBJECTS
+ * 
+ * - Node has the global object instead of the window object which the browser uses.
+ * - It provides many useful methods and properties which can be utilised without using require() function.
+ * 
+ * Console:
+ * => The console object provides methods such as console.log which can be used to write to standard output of any node.js stream.
+ * 
+ * Process:
+ * => The process object allows getting information about the current Node.js process. for example, process env property which provides environment variables.
+ * 
+ * Timers:
+ * => methods such a setImmediate(), setInterval(), and setTimeout() can be used to execute functions after a specified delay or at regular intervals.
+ * 
+ * WebAssembly:
+ * The WebAssembly object provides Web Assembly related functionality to work with low-level code. It is used to run code written in multiple languages on the web. 
+ * 
+ */
