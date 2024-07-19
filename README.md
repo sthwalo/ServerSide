@@ -11,6 +11,8 @@ This repository contains my journey through learning Node.js fundamentals, packa
     1. check if the fs module was installed (npm list fs)
     2. npm install fs
     3. verify
+
+All this fixed part of the error i wsa having however i learnt about cd to locate the files or project directory and as well as creating a JSON file.
     
 
 
