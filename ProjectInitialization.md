@@ -20,7 +20,7 @@
     cd nodejs-study-guide
 
     Organize 
-    mkdir Day1 Day2 Day3 Day4 Day5 Day6 Day7
+    mkdir Day1 Day2 Day3 Day4 
 
     Create file 
     cd Day1 touch hello-world.js
